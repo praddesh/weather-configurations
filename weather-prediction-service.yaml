@@ -1,5 +1,6 @@
 server:
-  port: 8081
+  port: 8080
 
-open-weather:
-  apikey: d2929e9483efc82c82c32ee7e02d563e
+spring:
+  application:
+    name: weather-prediction-service
