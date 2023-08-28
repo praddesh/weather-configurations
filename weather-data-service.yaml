@@ -4,6 +4,19 @@ server:
 open-weather:
   apikey: d2929e9483efc82c82c32ee7e02d563e
 
+management:
+#  health:
+#    circuitbreakers:
+#      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+#  endpoint:
+#    health:
+#      show-details: always
+    
+
 resilience4j:
   circuitbreaker:
     instances:
